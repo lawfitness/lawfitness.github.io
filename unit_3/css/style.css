@@ -1,0 +1,40 @@
+* {margin: 0;
+padding: 0;
+}
+
+body {
+	background: url("https://events.com/wp-content/uploads/2015/12/Obstacle-Course-Race-Twitter.png");
+	background-size: cover;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+header {
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	font-family: helvetica;
+}
+
+nav a {
+	margin-right: 10px
+}
+
+h3 {
+	padding: 20px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic;
+	color: #84CDE8;
+}
+p {
+	margin-top: 200px;
+	margin-bottom: 0px;
+	padding: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(185,212,250,0.5);
+	color: #002140;
+}
