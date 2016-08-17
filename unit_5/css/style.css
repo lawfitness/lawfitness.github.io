@@ -9,22 +9,30 @@ body {
 	font-size: 20px;
 }
 header {
-	background: #000;
-	color: #FFF;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	/*color: #FFF;*/
 	text-align: center;
 	font-family: helvetica;
 }
 
 nav a {
-	margin-right: 10px
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 10px;
+	/*margin-right: 10px*/
 }
 nav a:hover {
 	color: #FFF;
 }
 
 #lander {
-	background: url("https://events.com/wp-content/uploads/2015/12/Obstacle-Course-Race-Twitter.png");
-	background-size: cover;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	/*background: url("https://events.com/wp-content/uploads/2015/12/Obstacle-Course-Race-Twitter.png");
+	background-size: cover;*/
 	text-align: center;
 	font-family: Helvetica;
 	font-size: 1em;
@@ -44,6 +52,9 @@ h2 {
 	font-size: 1.5em;
 }
 section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 	text-align: center;
 	font-family: 'Merriweather', serif;
 }
@@ -60,6 +71,12 @@ p {
 	width: 30em;
 	line-height: 1.5em;
 	margin: 2em auto;
-	background-color: rgba(185,212,250,0.5);
+	/*background-color: rgba(185,212,250,0.5);*/
 	color: #002140;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
