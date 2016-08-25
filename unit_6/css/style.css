@@ -7,12 +7,16 @@ padding: 0;
 
 body {
 	font-size: 20px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
 }
+
 header {
-	background-color: #FFED74;
+	background-color: #000;
 	border: 1px black solid;
 	padding: 20px;
-	/*color: #FFF;*/
+	color: #FFF;
 	text-align: center;
 	font-family: helvetica;
 }
@@ -20,7 +24,7 @@ header {
 nav a {
 	background-color: #E8C66A;
 	border: 1px black solid;
-	padding: 10px;
+	padding: 0px;
 	/*margin-right: 10px*/
 }
 nav a:hover {
@@ -28,11 +32,11 @@ nav a:hover {
 }
 
 #lander {
-	background-color: #FFE2B8;
+	/*background-color: #FFE2B8;*/
 	border: 1px black solid;
 	padding: 20px;
-	/*background: url("https://events.com/wp-content/uploads/2015/12/Obstacle-Course-Race-Twitter.png");
-	background-size: cover;*/
+	background: url("https://events.com/wp-content/uploads/2015/12/Obstacle-Course-Race-Twitter.png");
+	background-size: cover;
 	text-align: center;
 	font-family: Helvetica;
 	font-size: 1em;
@@ -51,12 +55,44 @@ h2 {
 	font-family: 'Helvetica', sans-serif;
 	font-size: 1.5em;
 }
+
+#two_column{
+	background-color: #F0F6FF;
+	border: 1px black solid;
+	padding 20px;
+}
+
+#left{
+	background-color: #C1CEFF;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right{
+	background-color: #E7ECFF;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 	/*float: left;*/
-	/*height: 280px;*/
+	height: 280px;
 	text-align: center;
 	font-family: 'Merriweather', serif;
 }
@@ -65,12 +101,12 @@ section {
 p {
 	margin-top: 220px;
 	margin-bottom: 0px;
-	padding: 10px;
+	padding: 16px;
 	font-family: 'Merriweather', serif;
 	text-align: center;
 	font-style: italic;
 	font-size: 1em;
-	width: 30em;
+	/*width: 30em;*/
 	line-height: 1.5em;
 	margin: 2em auto;
 	/*background-color: rgba(185,212,250,0.5);*/
