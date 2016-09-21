@@ -22,10 +22,9 @@ header {
 }
 
 nav a {
-	color: #FFF;
-	/*background-color: #DBE3FF;*/
-	/*border: 1px black solid;*/
+	color: #FFF445;	
 	padding: 2px 70px;
+	text-decoration: none;
 }
 
 nav a:hover {
